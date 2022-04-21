@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(./Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+body{
+    position: relative;
+    font-family: Manrope;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #1E1B1B;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: #FF6433;
+}
+
+/* navbar style */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.road-assistance img{
+    background-color: #5CBA99;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+/* nav bar ends */
+
+/* section 1 */
+
+.first-section{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    
+}
+
+section .title{
+    margin: 60px 0;
+}
+
+section .title button{
+    margin-bottom: 30px;
+}
+section .title .sub-flex{
+    display: flex;
+    gap: 5px;
+}
+section .title .sub-flex .clock{
+    width: 20px;
+    padding-top: 10px;
+}
+
+section .banner img{
+    width: 400px;
+}
+
+section .banner{
+    position: relative;
+}
+
+section .banner .rounded-rec{
+    position: absolute;
+}
+
+section .banner .quick-service{
+    display: flex;
+    top: 12%;
+    left: -5%;
+    background: #fff;
+    padding: 13px 18px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 8px #E1E1E16E;
+    gap: 5px;
+}
+
+section .banner .quick-service span{
+    padding-top: 10px;
+}
+
+section .banner .quick-service p{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #00D289;
+    font-size: 15px;
+    padding-left: 6px;
+    color: #fff;
+}
+
+section .banner .rating{
+    display: flex;
+    top: 60%;
+    left: 60%;
+    background: #fff;
+    padding: 13px 18px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 8px #E1E1E16E;
+    font-size: 15px;
+}
+
+section .banner .rating img{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+
+section .title span{
+    color: #E2E6E9;
+}   
+
+section .title span.time{
+    color: #1E1B1B;
+}
+
+/* first section close */
+
+/* second section */
+.second-section{
+    background-color: #E2E6E9;
+}
+
+.service{
+    display: flex;
+    padding: 80px 0;
+}
+
+.service-flex{
+    display: flex;
+    margin: 38px auto;
+    gap: 10px;
+}
+
+.service-flex .service-content p{
+    margin-top: 20px;
+}
+
+.service-flex .service-content span{
+    font-weight: bold;
+}
+
+.service-flex .service-img{
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+}
+
+.know{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form .input_location{
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+}
+
+/* end section2 */
+
+/* section 3 */
+.remark{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+    padding: 80px 0;
+    margin: 0 300px 0 100px;
+    gap: 100px;
+}
+
+.remark h3{
+    margin-bottom: 10px;
+}
+
+.remarks-option .option{
+    display: flex;
+    gap: 20px;
+}
+
+.remark .remark-text p{
+    margin-bottom: 30px;
+}
+
+.option p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #F2F2F2;
+}
+
+.option .option-text{
+    margin-top: 30px;
+}
+
+.option .option-text p{
+    color: #1E1B1B;
+}
+
+.option .option-text span{
+    font-weight: bold;
+    color: #1E1B1B;
+}
+
+
+
+.remark .remark-img p{
+    background-color: #661CE7;
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.remark-img img{
+    margin-left: 20px;
+}
+
+/* section 3 end */
+
+/* fourth section */
+
+.fourth-section{
+    background-color: #E2E6E9;
+
+}
+
+.offer{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.offer p{
+    font-weight: 600;
+}
+
+.offer h2{
+    margin-bottom: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, minmax(200px, auto));
+    grid-gap: 5px;
+    margin-bottom: 40px;
+}
+
+.grid-container div:nth-child(3){
+    background-color: #FF6433;
+    color: #fff;
+}
+
+.grid-container .box{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.learn-offer{
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end;
+}
+/* section 4 end */
+
+/* section 5 */
+.fifth-section{
+    position: relative;
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+    
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, minmax(400px, auto));
+    margin-bottom: 40px;
+}
+
+.img-container div.img-car{
+    background: url(/img/car_boot.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-container div.img-engine{
+    background: url(/img/engine.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fifth-section .card{
+    position: absolute;
+    background-color: #FF6433;
+    height: 400px;
+    width: 650px;
+    top: 0;
+    left: 15%;   
+}
+
+.fifth-section .card button{
+    background-color: #1E1B1B;
+}
+
+.fifth-section .card h3{
+    color: #fff;
+}
+
+.fifth-section .card div{
+    margin: 80px 40px;
+}
+
+.fifth-section .stat{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fifth-section .stat h2{
+    color: #661CE7;
+}
+
+.fifth-section .stat p{
+    font-weight: 600;
+}
+
+/* end section 5 */
+
+/* sectiion 6 */
+.sixth-section{
+    background-color: #FAFAFA;
+}
+
+.sixth-section .brand{
+    display: flex;
+    justify-content: center;
+}
