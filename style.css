@@ -371,23 +371,26 @@ form .input_location{
 .img-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(1, minmax(400px, auto));
     margin-bottom: 40px;
-    width: 100%;
 }
-.img-container div.img-car img{
-    width: 100%;
-    height: 100%;
+
+.img-container div.img-car{
+    background: url(./img/car_boot.png) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.img-container div.img-engine img{
-    width: 100%;
-    height: 100%;
+
+.img-container div.img-engine{
+    background: url(./img/engine.png) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .fifth-section .card{
     position: absolute;
     background-color: #FF6433;
-    height: 364px;
+    height: 400px;
     width: 650px;
     top: 0;
     left: 15%;   
@@ -402,7 +405,7 @@ form .input_location{
 }
 
 .fifth-section .card div{
-    margin: 50px 40px;
+    margin: 80px 40px;
 }
 
 .fifth-section .stat{
