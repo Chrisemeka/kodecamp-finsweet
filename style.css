@@ -376,13 +376,13 @@ form .input_location{
 }
 
 .img-container div.img-car{
-    background: url(/img/car_boot.png) no-repeat;
+    background: url(./img/car_boot.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .img-container div.img-engine{
-    background: url(/img/engine.png) no-repeat;
+    background: url(./img/engine.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
