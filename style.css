@@ -936,6 +936,10 @@ footer p{
         grid-column: 1;
         grid-row: 2/3;
     }
+    .seventh-section img.card-dashline {
+        margin-left: 130px;
+        margin-bottom: 50px;
+    }
 
     /* eight-section */
     .eight-section h3{
@@ -977,4 +981,4 @@ footer p{
     .nine-section .last-text span {
         font-size: 18px;
     }
-}
+
