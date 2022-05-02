@@ -571,3 +571,410 @@ form .input_location{
 .nine-section .last-text span{
     font-size: 24px;
 }
+
+footer{
+    background-color: #1E1B1B;
+    color: #fff;
+}
+
+footer .body2 li a{
+    color: #FFFFFF;
+}
+
+footer p{
+    font-size: 12px;
+    opacity: .6;
+}
+
+
+/* end home */
+/* ------------- Services ---------------- */
+/* first section */
+
+.service-first{
+    position: relative;
+}
+
+.service-first .card{
+    background-color: #1E1B1B;
+    margin-left: 45%;
+    margin-bottom: 6%;
+    height: 400px;
+    width: 500px;
+      
+}
+
+.service-first .card button{
+    background-color: #FF6433;
+}
+
+.service-first .card h3{
+    color: #fff;
+}
+
+.service-first .card .card-padding{
+    padding-top: 80px;
+}
+
+.service-first .card p{
+    color: #fff;
+}
+
+.service-first .card div{
+    margin: 80px 50px;
+}
+
+/* end of first section */
+
+/* second section */
+
+.service-second{
+    background-color: #F5F5F5;
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, minmax(200px, auto));
+    grid-gap: 5px;
+    margin-bottom: 40px;
+}
+
+.service-container div:nth-child(2){
+    background-color: #FF6433;
+    color: #fff;
+}
+
+.service-container .box{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.service-container .pad{
+    background-color: #fff;
+    padding-top: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.service-container .pad p{
+    opacity: .5;
+}
+
+.service-container .pad img{
+    width: 50px;
+    opacity: .8;
+}
+
+.service-container .one{
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.service-container .two{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.service-container .three{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.service-container .four{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.service-container .five{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.service-container .six{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.service-container .seven{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.service-container .see{
+    display: flex;
+    gap: 20px;
+}
+
+.service-container .see {
+    display: flex;
+    gap: 20px;
+}
+
+/* end of section 2 */
+
+/* section 3 */
+
+.service-third{
+    padding-bottom: 400px;
+}
+
+.service-flex{
+    display: flex;
+    margin: 38px auto;
+    gap: 10px;
+}
+
+.service-flex .service-content p{
+    margin-top: 20px;
+}
+
+.service-flex .service-content span{
+    font-weight: bold;
+}
+
+.service-flex img{
+    width: 30px;
+}
+
+.size{
+    padding-right: 450px;
+}
+
+.services-options{
+    margin: 100px 0 30px 0;
+    
+}
+
+.services-options .size-2 span{
+    font-weight: bold;
+    opacity: .6;
+}
+
+.size-2{
+    padding-left: 400px;
+}
+
+
+/* mobile view */
+/* Homepage */
+@media screen and (max-width: 426px) {
+    /* header */
+    .main-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right-section{
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+    .right-section .navigation{
+        border: none;
+    }
+    .right-section .navigation ul{
+        flex-direction: column;
+    }
+    .right-section .navigation ul li{
+        margin: 8px 0;
+        width: 100%;
+    }
+    .right-section .navigation a{
+        width: 100%;
+        display: block;
+    }
+
+    /* first section */
+    
+    .first-section{
+        flex-direction: column;
+    }
+    .first-section h1{
+        font-size: 35px;
+        line-height: 40px;
+        justify-content: space-between;
+    }
+    .first-section .banner .main-banner{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .first-section .banner .quick-service{
+        padding: 8px 10px;
+    }
+    .first-section .banner .quick-service p {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 12px;
+        padding: 5px 0 0 2px;
+    }
+    .first-section .banner .quick-service span {
+        font-size: 15px;
+        padding: 5px 0 0 0;
+    }
+    section .banner .rating {
+        display: flex;
+        left: 50%;
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+    section .banner .rating img {
+        width: 23px;
+        height: 23px;
+        padding-top: 10px;
+    }
+
+    /* second section */
+    .second-section .service{
+        flex-direction: column;
+    }
+    .second-section .service .service-options h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+        color: #1E1B1B;
+    }
+    .second-section .know{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .second-section .form h3 {
+        font-size: 24px;
+    }
+
+    /* third section */
+    .third-section .remark{
+        flex-direction: column;
+        margin: 0;
+    }
+    .third-section .remark-text{
+        text-align: center;
+    }
+    .third-section h3 {
+        font-size: 24px;
+        gap: 50px;
+    }
+    .third-section .remarks-option{
+        margin: 0 auto;
+    }
+
+    /* fourth section */
+    .fourth-section .offer h2{
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .fourth-section .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, minmax(200px, auto));
+    }
+
+    /* fifth section */
+    .fifth-section .img-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, minmax(200px, auto));
+    }
+    .fifth-section .card h3{
+        font-size: 20px;
+    }
+    .fifth-section .card div {
+        margin: 30px 20px 20px 20px;
+    }
+    .fifth-section .card {
+        height: 170px;
+        width: 300px;
+        top: 18%;
+        left: 15%;
+    }
+    .fifth-section .stat {
+        justify-content: space-around;
+    }
+    .fifth-section .stat h2{
+        font-size: 24px;
+        padding-left: 45px;
+    }
+    .fifth-section .stat p{
+        font-size: 11px;
+        padding-left: 20px;
+
+    }
+
+    /* sixth section */
+    .sixth-section h3{
+        font-size: 24px;
+    }
+    .sixth-section .offer{
+        padding: 80px 0 30px 0;
+    }
+    .sixth-section img{
+        width: 400px;
+    }
+
+    /* seventh section */
+    .seventh-section h3{
+        font-size: 24px;
+    }
+    .seventh-section .offer{
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    .seventh-section .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(300px, auto));
+        grid-template-rows: repeat(2, minmax(250px, auto));
+        grid-gap: 20px;
+        margin: 100px 50px;
+    }
+    .seventh-section .card-container .one {
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+    .seventh-section .card-container .two {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+
+    /* eight-section */
+    .eight-section h3{
+        font-size: 24px;
+    }
+    .eight-section .cards-container {
+        margin: 0 80px 50px 80px;
+    }
+    .eight-section .cards-container .card {
+        font-size: 15px;
+    }
+    .eight-section .cards-container .one p {
+        font-size: 10px;
+    }
+    .eight-section .cards-container .card img {
+        width: 20px;
+    }
+
+    /* nine section */
+    .nine-section{
+        flex-direction: column;
+    }
+    .nine-section h3 {
+        font-size: 24px;
+    }
+    .nine-section .remark {
+        justify-content: space-between;
+        padding: 80px 0;
+        margin: 0 100px 0 100px;
+        text-align: center;
+    }
+    }
+    .nine-section .last-text {
+        padding: 50px;
+    }
+    .nine-section .last-text p {
+        font-size: 12px;
+    }
+    .nine-section .last-text span {
+        font-size: 18px;
+    }
+}
