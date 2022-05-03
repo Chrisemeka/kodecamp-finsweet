@@ -1009,6 +1009,15 @@ footer p{
             padding-right: 30px;
         }
     }
+        @media screen and (max-width: 320px) {
+            .first-section .banner .main-banner {
+                width: 230px;
+                padding: 0;
+            }
+            section .banner .rating {
+                font-size: 10px;
+            }
+        }
 
 
     /* tablet view */
@@ -1072,14 +1081,14 @@ footer p{
         section .banner .rating {
             display: flex;
             top: 55%;
-            left: 50%;
+            left: 40%;
             padding: 10px 13px;
-            font-size: 12px;
+            font-size: 14px;
         }
         section .banner .rating img {
-            width: 24px;
-            height: 24px;
-            padding-top: 10px;
+            width: 20px;
+            height: 20px;
+            padding-top: 7px;
         }
         .first-section .sub-flex .time p{
             font-size: 15px;
