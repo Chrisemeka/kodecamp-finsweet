@@ -887,14 +887,14 @@ footer p{
         height: 170px;
         width: 300px;
         top: 18%;
-        left: 15%;
+        left: 13%;
     }
     .fifth-section .stat {
         justify-content: space-around;
     }
     .fifth-section .stat h2{
         font-size: 24px;
-        padding-left: 45px;
+        padding-left: 38px;
     }
     .fifth-section .stat p{
         font-size: 11px;
@@ -926,7 +926,7 @@ footer p{
         grid-template-columns: repeat(1, minmax(300px, auto));
         grid-template-rows: repeat(2, minmax(250px, auto));
         grid-gap: 20px;
-        margin: 100px 50px;
+        margin: 100px auto;
     }
     .seventh-section .card-container .one {
         grid-column: 1;
@@ -937,7 +937,7 @@ footer p{
         grid-row: 2/3;
     }
     .seventh-section img.card-dashline {
-        margin-left: 130px;
+        margin-left: 110px;
         margin-bottom: 50px;
     }
 
@@ -986,7 +986,7 @@ footer p{
 
 
     
-    @media screen and (min-width: 370px) {
+    @media screen and (max-width: 370px) {
         .fifth-section .card h3{
             font-size: 15px;
         }
