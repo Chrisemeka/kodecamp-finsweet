@@ -910,7 +910,7 @@ footer p{
         padding: 80px 0 30px 0;
     }
     .sixth-section img{
-        width: 400px;
+        width: 300px;
     }
 
     /* seventh section */
@@ -982,3 +982,347 @@ footer p{
         font-size: 18px;
     }
 
+    
+
+
+    
+    @media screen and (min-width: 370px) {
+        .fifth-section .card h3{
+            font-size: 15px;
+        }
+        .fifth-section .card div {
+            margin: 20px;
+        }
+        .fifth-section .card {
+            height: 170px;
+            width: 250px;
+            top: 18%;
+            left: 17%;
+        }
+        .fifth-section .stat h2{
+            font-size: 20px;
+            padding-left: 30px;
+        }
+        .first-section .banner .main-banner{
+            width: 300px;
+            margin-bottom: 50px;
+            padding-right: 30px;
+        }
+    }
+
+
+    /* tablet view */
+    @media screen and (min-width: 427px) and (max-width: 768px) {
+        .container{
+            width: 80%;
+        }
+        /* main header */
+        .main-header{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .right-section{
+            flex-direction: column;
+            display: none;
+            width: 100%;
+            text-align: center;
+        }
+        .right-section .navigation{
+            border: none;
+        }
+        .right-section .navigation ul{
+            flex-direction: column;
+        }
+        .right-section .navigation ul li{
+            margin: 8px 0;
+            width: 100%;
+        }
+        .right-section .navigation a{
+            width: 100%;
+            display: block;
+        }
+        
+        /* first section */
+        .first-section{
+            padding-top: 40px;
+        }
+        .first-section h1{
+            font-size: 35px;
+            line-height: 40px;
+            justify-content: space-between;
+        }
+        .first-section .banner .main-banner{
+            width: 300px;
+            margin-bottom: 50px;
+        }
+        .first-section .banner .quick-service{
+            padding: 8px 10px;
+        }
+        .first-section .banner .quick-service p {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-size: 12px;
+            padding: 5px 0 0 2px;
+        }
+        .first-section .banner .quick-service span {
+            font-size: 15px;
+            padding: 5px 0 0 0;
+        }
+        section .banner .rating {
+            display: flex;
+            top: 55%;
+            left: 50%;
+            padding: 10px 13px;
+            font-size: 12px;
+        }
+        section .banner .rating img {
+            width: 24px;
+            height: 24px;
+            padding-top: 10px;
+        }
+        .first-section .sub-flex .time p{
+            font-size: 15px;
+            
+        }
+
+        /* second section */
+        .second-section .service{
+            flex-direction: column;
+        }
+        .second-section .service .service-options h2{
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: -0.03em;
+            color: #1E1B1B;
+        }
+        .second-section .know{
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .second-section .form h3 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        /* third section */
+        .third-section{
+            width: 70%;
+            margin: 0 auto;
+        }
+        .third-section .remark{
+            flex-direction: column;
+            margin: 0;
+            justify-content: left;
+        }
+        
+        .third-section h3 {
+            font-size: 40px;
+            gap: 50px;
+        }
+        .third-section .remarks-option{
+            margin: 0 0 0 10px;
+        }
+
+        /* fourth section */
+        .fourth-section .offer h2{
+            font-size: 45px;
+            line-height: 60px;
+            margin-bottom: 30px;
+        }
+        .fourth-section .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, minmax(200px, auto));
+        }
+
+        /* fifth section */
+        .fifth-section .card {
+            height: 300px;
+            width: 500px;
+            top: 8%;
+            left: 17%;
+        }
+        .fifth-section .card h3 {
+            font-size: 30px;
+        }
+        .fifth-section .card div {
+            margin: 80px 40px;
+        }
+        .fifth-section .stat h2 {
+            font-size: 35px;
+        }
+
+        /* seixth section */
+        .sixth-section .offer{
+            padding: 80px auto 20px auto;
+        }
+        .sixth-section .brand img{
+            width: 700px;
+        }
+
+        /* seventh section */
+        .seventh-section h3{
+            font-size: 40px;
+        }
+        .seventh-section .card-container {
+            margin: 0 100px 50px 100px;
+        }
+        .seventh-section img.card-dashline {
+            margin-left: 320px;
+            margin-bottom: 150px;
+        }
+
+        /* eight section */
+        .eight-section .cards-container .card {
+            font-size: 18px;
+        }
+        .eight-section .cards-container .card img {
+            width: 20px;
+        }
+        .eight-section .cards-container .one p {
+            font-size: 13px;
+        }
+
+        /* nine section */
+        .nine-section h3 {
+            font-size: 20px;
+            padding-left: 40px;
+        }
+        .nine-section .remark {
+            justify-content: space-between;
+            padding: 80px 0;
+            margin: 0 20px 0 100px;
+            text-align: center;
+        }
+        
+        .nine-section .last-text {
+            padding: 50px 50px 50px 0;
+        }
+        .nine-section .last-text p {
+            font-size: 12px;
+        }
+        .nine-section .last-text span {
+            font-size: 18px;
+        }
+        .nine-section .last-text span {
+            font-size: 13px;
+        }
+}
+
+
+/* service page */
+@media screen and (max-width: 426px) {
+        
+    /* first section */
+
+    .service-first .card {
+        background-color: #1E1B1B;
+        margin-left: 20%;
+        margin-bottom: 6%;
+        height: 300px;
+        width: 300px;
+    }
+    .service-first .card .card-padding {
+        padding-top: 30px;
+    }
+    .service-first .card h3 {
+        font-size: 24px;
+    }
+    .service-first .card p {
+        font-size: 13px;
+    }
+
+    /* second service */
+    .service-second .service-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, minmax(200px, auto));
+    }
+    
+    .service-second .service-container .one {
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+    .service-second .service-container .two {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+    .service-second .service-container .three {
+        grid-column: 1;
+        grid-row: 3/4;
+    }
+    .service-second .service-container .four {
+        grid-column: 1;
+        grid-row: 4/5;
+    }
+    .service-second .service-container .five {
+        grid-column: 1;
+        grid-row: 5/6;
+    }
+    .service-second .service-container .six {
+        grid-column: 1;
+        grid-row: 6/7;
+    }
+    .service-second .service-container .seven {
+        grid-column: 1;
+        grid-row: 7/8;
+    }
+    .service-container .pad {
+        padding-top: 30%;
+        padding-bottom: 30px;
+    }
+
+    /* third section */
+    .service-third {
+        padding-bottom: 200px;
+    }
+    .service-third .services-options {
+        margin: 30px;
+    }
+    .service-third .services-options .size {
+        padding: 0;
+    }
+    .service-third .services-options .size h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .service-third .services-options .size-2 {
+        padding: 0;
+    }
+    .service-third .services-options .size-2 h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+   /*end of service mobile view  */
+    
+    /* service page tablet view */
+
+    /* first section */
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    .service-first .card {
+        margin-left: 20%;
+    }
+
+    .service-third {
+        padding-bottom: 200px;
+    }
+    .service-third .services-options {
+        margin: 30px;
+    }
+    .service-third .services-options .size {
+        padding: 0;
+    }
+    .service-third .services-options .size h3 {
+        font-size: 34px;
+        line-height: 50px;
+        margin-top: 80px;
+    }
+    .service-third .services-options .size-2 {
+        padding: 0;
+    }
+    .service-third .services-options .size-2 h3 {
+        font-size: 34px;
+        line-height: 50px;
+        margin-top: 80px;
+    }
+}
