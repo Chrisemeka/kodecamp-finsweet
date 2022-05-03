@@ -816,7 +816,7 @@ footer p{
     }
     section .banner .rating {
         display: flex;
-        left: 50%;
+        left: 45%;
         padding: 10px 13px;
         font-size: 12px;
     }
